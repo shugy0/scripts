@@ -1,0 +1,7 @@
+WinWait("ahk_exe Discord.exe")
+WinRestore("ahk_exe Discord.exe")
+WinMove(3819, 604, 1290, 780, "ahk_exe Discord.exe")
+WinSetStyle("WS_THICKFRAME", "ahk_exe Discord.exe")
+Run("C:\Users\<USERNAME>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk")
+WinWait("ahk_exe Discord.exe")
+WinMaximize("ahk_exe Discord.exe")
