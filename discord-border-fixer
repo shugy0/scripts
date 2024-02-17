@@ -1,7 +1,7 @@
 WinWait("ahk_exe Discord.exe")
 WinRestore("ahk_exe Discord.exe")
-WinMove(3819, 604, 1290, 780, "ahk_exe Discord.exe")
+WinMove(3819, 604, 1290, 780, "ahk_exe Discord.exe") ; you will need to replace "3819, 604, 1290, 780" with coordinates that are on the monitor where you want your maximized discord window to be.
 WinSetStyle("WS_THICKFRAME", "ahk_exe Discord.exe")
-Run("C:\Users\<USERNAME>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk")
+Run("C:\Users\<USERNAME>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk") ; you will need to change <USERNAME> to your username, or possibly the entire path if you don't have Discord in your Start Menu
 WinWait("ahk_exe Discord.exe")
 WinMaximize("ahk_exe Discord.exe")
