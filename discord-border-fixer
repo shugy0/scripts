@@ -1,4 +1,4 @@
-WinWait("ahk_exe Discord.exe")
+WinWait("ahk_exe Discord.exe") ; by Shugyo
 WinRestore("ahk_exe Discord.exe")
 WinMove(3819, 604, 1290, 780, "ahk_exe Discord.exe") ; you will need to replace "3819, 604, 1290, 780" with coordinates that are on the monitor where you want your maximized discord window to be.
 WinSetStyle("WS_THICKFRAME", "ahk_exe Discord.exe")
